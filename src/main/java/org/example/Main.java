@@ -5,6 +5,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
+// Task 1 ------------------------------------------------------
   Student object1=new Student();
   object1.name="მარი";
   object1.age=24;
@@ -12,5 +13,9 @@ public class Main {
 
 object1.printInfo(object1.name, object1.age);
 object1.printStudentInfo(object1.name, object1.age, object1.courseName);
+
+// Task 2 -------------------------------------------------------
+        AnimalSound object2=new AnimalSound();
+        object2.makeSound();
     }
 }
