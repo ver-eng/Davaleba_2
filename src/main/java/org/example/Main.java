@@ -36,7 +36,13 @@ public class Main {
         object3.multiply(8,7);
         object3.setCompletedTasks(2);
 
+      //Task 5 --------------------------------------------------------
+
+      AnimalHabitats animals=new AnimalHabitats();
+      animals.penguins();
+      animals.polarBears();
+      animals.kiwi();
     }
-
-
+      //Task 6 --------------------------------------------------------
+      //Task 6 aris PrintArrClass-shi
 }
