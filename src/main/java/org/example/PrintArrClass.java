@@ -4,6 +4,7 @@ public class PrintArrClass {
     public static void main(String[] args) {
         int[] array1={5, 45, -100, 87};
         String[] array2={"dog", "cat", "horse", "tiger"};
+
         PrintArrClass object1=new PrintArrClass();
         object1.printArr(array1);
         object1.printArr(array2);

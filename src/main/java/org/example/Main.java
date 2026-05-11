@@ -28,7 +28,13 @@ public class Main {
         }
         //Task 4 --------------------------------------------------------
 
-
+        AbstractClassChild object3=new AbstractClassChild();
+        object3.age=25;
+        object3.name="Verikoo";
+        object3.sum(5,4);
+        object3.printHello();
+        object3.multiply(8,7);
+        object3.setCompletedTasks(2);
 
     }
 
